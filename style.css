@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  min-height: 100vh;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+button {
+  background-color: rgba(236, 226, 226, 0.774);
+  border: none;
+  border-radius: 4px;
+  color: rgba(46, 46, 46, 0.904);
+  font-family: 'Oswald', sans-serif;
+  height: 30px;
+  margin: 5px;
+  width: 80px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: rgba(202, 177, 177, 0.774);
+  cursor: pointer;
+}
+
+input[type=text] , input[type=email]{
+  border: 1px solid rgb(187, 175, 175);
+  border-radius: 4px;
+  display: block;
+  height: 30px;
+  margin: 5px;
+  outline: none;
+  padding: 2px;
+  width: 10%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas: 
+  'cabecalho'
+  'conteudo'
+  'rodape';
+}
+.main-header {
+  background-color: #FFA62B;
+  grid-area: cabecalho;
+}
+
+.title-page-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-page-main {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+}
+
+.main-content {
+  background-color: #75B3E7;
+  grid-area: conteudo;
+}
+
+.footer-main {
+  align-items: center;
+  background-color: #1B2431;
+  display: flex;
+  grid-area: rodape;
+  justify-content: center;
+}
+
+.links-container a {
+  color: rgb(230, 215, 215);
+  margin: 10px;
+}

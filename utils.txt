@@ -1,0 +1,7 @@
+font-family: 'Luckiest Guy', cursive, 'Quasttrocento', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Gudea', sans-serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
