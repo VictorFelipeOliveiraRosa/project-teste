@@ -1,0 +1,27 @@
+.main-section {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: .5%;
+  width: 90%;
+}
+
+.block-container {
+  align-items: center;
+  text-align: center;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 5px 2px 2px rgb(66, 64, 64);
+  display: flex;
+  flex-direction: column;
+  height: 15%;
+  justify-content: space-around;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  width: 14%;
+}
+
+.link-projeto,
+.name-projeto {
+  font-size: calc(.6vw + .7vh);
+  font-family: 'Space Mono', monospace;
+}

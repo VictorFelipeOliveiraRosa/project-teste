@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas: 
+  'cabecalho'
+  'conteudo'
+  'rodape';
+}
+.main-header {
+  background-color: #FFA62B;
+  grid-area: cabecalho;
+}
+
+.main-content {
+  background-color: #75B3E7;
+  display:flex;
+  grid-area: conteudo;
+}
+
+.footer-main {
+  align-items: center;
+  background-color: #1B2431;
+  display: flex;
+  grid-area: rodape;
+  justify-content: center;
+}
