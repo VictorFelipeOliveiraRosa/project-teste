@@ -1,4 +1,4 @@
-import { createElement, creatAtrribute } from '../utils/create.js';
+import { createElement } from '../utils/create.js';
 import { data } from './data.js';
 
 function generateBlcok(name, link) {
@@ -6,6 +6,8 @@ function generateBlcok(name, link) {
   const eleName = createElement('span', 'class', 'name-projeto');
   const eleView = createElement('span', 'class', 'view-box');
   const eleLink = createElement('a', 'class', 'link-projeto');
+
+  eleLink.setAttribute('target', '_blank');
 
   eleName.innerText = name;
   eleLink.innerText = 'Visualisar';

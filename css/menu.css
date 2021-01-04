@@ -1,7 +1,8 @@
 .main-menu {
+  background-color: rgb(26, 25, 25);
   height: 100%;
-  width: 10%;
   overflow: hidden;
+  width: 10%;
 }
 
 .liste-itens {
